@@ -9075,7 +9075,7 @@ textarea.form-control {
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal;
     color: #fff;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 20px;
     font-weight: 400; }
   .ftco-footer .ftco-footer-widget ul li a {
@@ -9868,3 +9868,15 @@ textarea.form-control {
 
 
 .mapouter{position:relative;text-align:right;height:500px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}
+
+div[disabled] {
+         background-color:#f1f1f1;
+         pointer-events: none;
+    opacity: 0.4;
+      }
+
+      .error {
+  font-size: small;
+  font-weight: 500;
+  color: red;
+}
