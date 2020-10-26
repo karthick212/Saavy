@@ -9880,3 +9880,12 @@ div[disabled] {
   font-weight: 500;
   color: red;
 }
+
+.captionlogo {
+  position: fixed;
+    /*padding-top: 2em;*/
+    /*padding-left: 4em;*/
+    font-size: 12px;
+    margin-left: -172px;
+    margin-top: 3em;
+}
