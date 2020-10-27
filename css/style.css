@@ -8201,7 +8201,7 @@ h1, h2, h3, h4, h5,
 
 .navbar-brand {
   font-weight: 800;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase; }
 
 .hero-wrap {
@@ -9882,10 +9882,30 @@ div[disabled] {
 }
 
 .captionlogo {
-  position: fixed;
+  /*position: fixed;*/
     /*padding-top: 2em;*/
     /*padding-left: 4em;*/
-    font-size: 12px;
-    margin-left: -172px;
-    margin-top: 3em;
+    font-size: 10px;
+    margin-left: -160px;
+    /*margin-top: 3.3em;*/
+    vertical-align: bottom;
 }
+.contact-left {
+  padding-left:6em;
+  line-height:10px;
+}
+@media (max-width: 575.98px) {
+  .contact-left {
+  padding-left:0em;
+  line-height:10px;
+}
+.captionlogo {
+  /position: fixed;
+    /*padding-top: 2em;*/
+    /*padding-left: 4em;*/
+    font-size: 10px;
+    margin-left: -154px;
+    /*margin-top: 3.6em;*/
+    vertical-align: bottom;
+}
+  }
